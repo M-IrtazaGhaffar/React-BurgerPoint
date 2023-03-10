@@ -1,0 +1,66 @@
+.feedback {
+    padding: 50px 0;
+}
+
+.feedback h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.formDetails {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.formDetails input {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 150px;
+    padding: 2px 10px;
+    margin: 25px;
+}
+
+.formDetails input:focus {
+    outline: none;
+}
+
+.feedback form .formMessage textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px 10px;
+    margin: 0 25px;
+    width: 400px;
+}
+
+.formMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback .formBtn {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.feedback .formBtn button {
+    background-color: tomato;
+    padding: 3px 15px;
+    color: white;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.feedback .formBtn button:hover {
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,99 @@
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    padding: 50px 0;
+}
+
+.menu-head {
+    text-align: center;
+    padding: 25px;
+    background-color: #FFD101;
+}
+
+.menu-head h1 {
+    font-size: 50px;
+}
+
+.menu-head p {
+    font-size: 20px;
+    padding: 5px 25px;
+    border: 3px dashed black;
+    display: inline-block;
+}
+
+.menu-head form {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-head form input {
+    padding: 5px;
+    width: 200px;
+    background-color: #FFD101;
+    border-top: none;
+    border-right: none;
+    font-size: 15px;
+    border-left: none;
+}
+
+.menu-head form input:focus {
+    background-color: #FFD101;
+    outline: none;
+}
+
+.menu-head form input::placeholder {
+    background-color: #FFD101;
+}
+
+.menu-head form button {
+    border: none;
+    background-color: #FFD101;
+    cursor: pointer;
+}
+
+.card form {
+    border: 2px solid rgba(128, 128, 128, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card form:hover {
+    border: 2px solid rgba(128, 128, 128, 1);
+}
+
+.card form img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card form .btn button {
+    padding: 5px 20px;
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid tomato;
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.card form .btn button:hover {
+    border: 2px solid black;
+    letter-spacing: 5px;
+    transition: .3s ease-in-out;
+}
+
+@media all and (max-width: 400px) {
+    .card form {
+        width: 90%;
+        padding: 10px;
+    }
+}

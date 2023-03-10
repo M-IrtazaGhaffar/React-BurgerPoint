@@ -1,0 +1,28 @@
+.contact-head {
+    font-size: 50px;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+.contact-desc {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.contact-foot {
+    font-size: 15px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+iframe {
+    border: none;
+}

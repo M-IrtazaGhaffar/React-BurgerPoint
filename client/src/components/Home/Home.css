@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Kalam:wght@300&family=Lobster&family=Macondo&family=Oswald&family=Poppins:ital,wght@0,100;0,400;1,900&family=Satisfy&family=Ubuntu&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+.home .header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+    background-image: url(../images/1fa0efe44e31cba3d28db304ae6c164c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(70, 0, 0);
+    height: 90vh;
+}
+
+.home .header .header-1 h1 {
+    font-size: 500%;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+}
+
+.home .header .header-1 p {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 125%;
+    padding: 5px 15px;
+    margin: 5px 0;
+    width: fit-content;
+    border: 2px dashed black;
+}
+
+.home .header .header-1 .desc {
+    text-transform: capitalize;
+    font-size: 100%;
+    padding: 5px 7px;
+    text-align: center;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+.home .header .header-2 img {
+    width: 500px;
+}
+
+.home .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .cards-center {
+    padding: 75px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-1 {
+    border-radius: 10px;
+    display: inline-block;
+    border: 5px solid black;
+    background-image: url(../images/c-1.jpg);
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: -1px;
+    padding: 25px;
+    margin: 10px 5px;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+.card-2 {
+    display: inline-block;
+}
+
+.card-2-1,
+.card-2-2 {
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 25px 25px 0px 25px;
+    text-transform: uppercase;
+    width: 350px;
+    height: 167.5px;
+    font-size: 150%;
+    margin: 10px 5px;
+    background-size: cover;
+}
+
+.card-2-1 {
+    background-image: url(../images/c-2.jpg);
+}
+
+.card-2-2 {
+    background-image: url(../images/c-3.jpg);
+}
+
+.card-1:hover,
+.card-2-1:hover,
+.card-2-2:hover {
+    transition: 0.4s ease-in-out;
+    transform: scale(1.15);
+    border-color: #FFD101;
+    cursor: pointer;
+}
+
+.home .towardsMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.home .towardsMenu .towardsMenu-center {
+    padding: 0;
+    width: 100%;
+}
+
+.home .towardsMenu .towardsMenu-center p {
+    background-color: #FFD101;
+    color: black;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin: 0;
+    padding: 5px 25px;
+    font-weight: 600;
+}
+
+.home .towardsMenu .towardsMenu-center h1 {
+    font-size: 350%;
+    text-transform: capitalize;
+    color: rgb(70, 0, 0);
+    font-family: 'Lobster', cursive;
+    padding: 30px 0;
+}
+
+.home .towardsMenu .towardsMenu-center a {
+    background-color: #FFD101;
+    color: black;
+    text-decoration: none;
+    padding: 10px 100px;
+    font-size: 150%;
+    border: 2px solid black;
+    border-radius: 25px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.home .towardsMenu .towardsMenu-center a:hover {
+    border: 5px solid black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    letter-spacing: 5px;
+}
+
+.home .reserve {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.home .reserve p {
+    color: rgb(70, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 45%;
+    border-bottom: 1px solid black;
+}
+
+.home .reserve h1 {
+    color: rgb(70, 0, 0);
+    text-transform: capitalize;
+    font-size: 350%;
+    padding: 30px 0;
+    font-family: 'Lobster', cursive;
+}
+
+.home .reserve .input input,
+.home .reserve .input button {
+    width: 250px;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.home .reserve .input input::placeholder {
+    text-transform: uppercase;
+}
+
+.home .reserve .input button {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgba(255, 0, 0, 0.85);
+}
+
+.home .reserve .input button:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: rgba(255, 0, 0, 0.85);
+    background-color: white;
+    letter-spacing: 3px;
+    border-color: rgba(255, 0, 0, 0.85);
+}
+
+@media all and (max-width: 1000px) {
+    .header {
+        display: block;
+        padding: 0;
+    }
+    .header-1 {
+        padding: 0%;
+        margin: 0 auto;
+    }
+    .header-2 {
+        padding: 0%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .home .header .header-2 img {
+        width: 250px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .home .header {
+        display: block;
+        padding: 25px;
+        text-align: center;
+    }
+    .home .header .header-1 h1 {
+        font-size: 400%;
+    }
+    .home .header .header-1 p {
+        font-size: 100%;
+    }
+    .header-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 0;
+    }
+    .home .header .header-2 img {
+        width: 300px;
+    }
+    .home .header .header-1 .desc {
+        font-size: 80%;
+    }
+    .home .towardsMenu {
+        padding: 10px;
+    }
+    .home .towardsMenu .towardsMenu-center h1 {
+        font-size: 250%;
+    }
+    .home .towardsMenu .towardsMenu-center p {
+        padding: 0;
+        background-color: #FFD101;
+        color: black;
+        text-transform: uppercase;
+        font-size: 100%;
+        margin: 0 75px;
+        padding: 5px 25px;
+        font-weight: 600;
+    }
+    .home .towardsMenu .towardsMenu-center a {
+        font-size: 100%;
+    }
+    .home .reserve h1 {
+        font-size: 250%;
+    }
+    .card-2-1 {
+        margin-bottom: 20px;
+    }
+    .home .reserve p {
+        margin: 0 100px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .home .header .header-2 img {
+        width: 230px;
+    }
+    .home .towardsMenu .towardsMenu-center a {
+        font-size: 100%;
+        padding: 10px 50px;
+    }
+}
